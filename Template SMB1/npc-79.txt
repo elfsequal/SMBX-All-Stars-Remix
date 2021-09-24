@@ -1,0 +1,8 @@
+height=36
+width=96
+gfxheight=36
+gfxwidth=96
+grabtop=1
+grabside=1
+playerblock=0
+npcblock=0

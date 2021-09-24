@@ -1,0 +1,8 @@
+{
+	"mainPage": "index.html",
+	"Title": "SMBX All-Stars Remix",
+	"allowPlayerSelection": false,
+	"allowTwoPlayer": false,
+	"episodeIcon": "icon.png",
+	"progressDisplay": "percent"
+}

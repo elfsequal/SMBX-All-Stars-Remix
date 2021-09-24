@@ -1,0 +1,8 @@
+framestyle=1
+framespeed=4
+frames=2
+grabtop=0
+playerblock=0
+npcblock=0
+noyoshi=1
+nogravity=1

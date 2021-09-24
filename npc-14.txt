@@ -1,0 +1,2 @@
+gfxoffsety=0
+frames=4

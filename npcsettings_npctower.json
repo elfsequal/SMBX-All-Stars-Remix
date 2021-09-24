@@ -1,0 +1,34 @@
+{
+    "style": "groupbox",
+    "title": "NPC Tower Settings",
+    "layout": [
+        {
+            "control": "multiLineEdit",
+            "name": "npcList",
+            "title": "NPC List",
+            "tooltip": "A list of NPC IDs in order of bottom-to-top.",
+            "value-default": ""
+        },
+        {
+            "control": "group",
+            "title": "Examples",
+            "children": [
+                {
+                    "control": "lineEdit",
+                    "title": "Four Goombas",
+                    "value-default": "1, 1, 1, 1"
+                },
+                {
+                    "control": "lineEdit",
+                    "title": "Galoomba &\nLakitu Helper",
+                    "value-default": "{id = 165}, {id = 284, ai1 = 165}"
+                },
+                {
+                    "control": "lineEdit",
+                    "title": "Lazy Boss\n\"\"Design\"\"",
+                    "value-default": "{id = 161, ai1 = 0}, {id = 209, deathEventName = \"Boss Defeated\"}"
+                }
+            ]
+        }
+    ]
+}

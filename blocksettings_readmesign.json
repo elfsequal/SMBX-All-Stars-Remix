@@ -1,0 +1,13 @@
+{
+	"style" : "groupbox",
+	"title" : "Read Me Sign Settings",
+	"layout": [
+		{
+			"control": "lineEdit",
+			"name": "text",
+			"title": "Text",
+			"tooltip": "The text displayed.",
+			"value-default": ""
+		}	
+	]
+}

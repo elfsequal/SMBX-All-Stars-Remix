@@ -1,0 +1,4 @@
+nofireball=1
+noiceball=1
+speed=2
+score=4

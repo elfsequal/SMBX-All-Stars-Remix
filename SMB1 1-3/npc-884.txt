@@ -1,0 +1,16 @@
+width = 32
+height = 32
+gfxwidth = 32
+gfxheight = 64
+gfxoffsetx = 0
+gfxoffsety = 2
+frames = 2
+framestyle = 1
+framespeed = 8
+
+speed = 1.5
+cliffturn = false
+facePlayerTime = 140
+droppedCoinID = 88
+
+shellID = 885

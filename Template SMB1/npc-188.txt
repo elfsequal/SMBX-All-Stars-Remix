@@ -1,0 +1,6 @@
+height=60
+width=64
+gfxheight=64
+gfxwidth=64
+gfxoffsety=2
+noyoshi=1
