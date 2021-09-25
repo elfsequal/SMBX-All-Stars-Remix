@@ -1,3 +1,4 @@
+local globalStuff = {}
 require("libs/nsmbwalls")
 require("libs/Twirl")
 
@@ -11,11 +12,12 @@ local extraNPCProperties = require("libs/extraNPCProperties")
 local warpTransition = require("libs/warpTransition")
 local playerphysicspatch = require("libs/playerphysicspatch")
 local metalCap = require("libs/metalCap")
-local ap = require("libs/anotherpowerup")
+--local ap = require("libs/anotherpowerup")
+local aw = require("libs/anotherwalljump")
 
-ap.registerItemTier(981, true)
-ap.registerPowerup("libs/ap_goldflower")
-
-ap.registerItemTier(980, true)
-ap.registerPowerup("libs/ap_propellermushroom")
+aw.registerAllPlayersDefault()
+--ap.registerItemTier(981, true)
+--ap.registerPowerup("libs/ap_goldflower")
+--ap.registerItemTier(980, true)
+--ap.registerPowerup("libs/ap_propellermushroom")
 local on ground = true

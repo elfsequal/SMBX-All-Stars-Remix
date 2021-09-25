@@ -23,7 +23,7 @@ local itemMap = {}
 local tiers = {}
 local isPoweringUp = false
 
-powerups[2] = {9, 184, 185}
+powerups[2] = {9, 184, 185, 249}
 powerups[3] = {14, 182, 183}
 powerups[4] = {34}
 powerups[5] = {169}

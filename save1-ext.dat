@@ -15,16 +15,16 @@
 {
    ["bigSwitch"]={7},
    ["_characterdata"]={8},
-   ["starcoinCounter"]=3,
-   ["hud"]={9},
-   ["starcoin"]={10}
+   ["starcoin"]={9},
+   ["hud"]={10},
+   ["starcoinCounter"]=6
 },
 --[4]--
 {
    ["encounterData"]={11},
    ["beatenLevels"]={12},
-   ["playerX"]=-199584,
-   ["playerY"]=-199072,
+   ["playerX"]=-197776,
+   ["playerY"]=-199088,
    ["unlockedCheckpoints"]={13},
    ["unlockedPaths"]={14}
 },
@@ -34,7 +34,7 @@
 },
 --[6]--
 {
-
+   ["lastPowerupItem"]=14
 },
 --[7]--
 {
@@ -56,31 +56,36 @@
 },
 --[9]--
 {
-   ["score"]=24930
+   ["SMB1 1-1.lvlx"]={26},
+   ["map.lvlx"]={27},
+   ["SMB1 1-2.lvlx"]={28}
 },
 --[10]--
 {
-   ["map.lvlx"]={26},
-   ["Template.lvlx"]={27}
+   ["score"]=56850
 },
 --[11]--
 {
-   {28}
+   {29}
 },
 --[12]--
 {
-   ["Template.lvlx"]=true
+   ["SMB1 1-1.lvlx"]=true,
+   ["SMB1 1-2.lvlx"]=true
 },
 --[13]--
 {
-
+   ["SMB1 1-1.lvlx"]={30},
+   ["SMB1 1-2.lvlx"]={31}
 },
 --[14]--
 {
-   ["toYoshisIsland3"]=true,
+   ["toSMB1 1-1"]=true,
    ["toYoshisIsland1"]=true,
+   ["toYoshisIsland2"]=true,
+   ["toSMB1 1-2 secret"]=true,
    ["toCroissantCapeCC"]=true,
-   ["toYoshisIsland2"]=true
+   ["toSMB1 1-2"]=true
 },
 --[15]--
 {
@@ -172,28 +177,50 @@
 },
 --[26]--
 {
-   ["maxID"]=0,
-   ["alive"]={29}
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={32}
 },
 --[27]--
+{
+   ["maxID"]=0,
+   ["alive"]={33}
+},
+--[28]--
 {
    1,
    1,
    1,
    ["maxID"]=3,
-   ["alive"]={30}
+   ["alive"]={34}
 },
---[28]--
+--[29]--
 {
    ["y"]=-198560,
    ["x"]=-198624,
    ["killed"]=false
 },
---[29]--
+--[30]--
+{
+   true
+},
+--[31]--
+{
+   true
+},
+--[32]--
+{
+   true,
+   true,
+   true
+},
+--[33]--
 {
 
 },
---[30]--
+--[34]--
 {
    true,
    true,

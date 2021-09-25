@@ -2,7 +2,6 @@
 -- Level code
 -- Created 15:8 2021-9-15
 --------------------------------------------------
-require("libs/globalStuff")
 local extendedKoopas = require("extendedKoopas")
 -- Run code on level start
 function onStart()
