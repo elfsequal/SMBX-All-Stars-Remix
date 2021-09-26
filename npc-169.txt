@@ -1,3 +1,0 @@
-gfxoffsety=0
-frames=8
-framespeed=12

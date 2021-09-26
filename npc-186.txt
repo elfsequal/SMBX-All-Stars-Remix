@@ -1,3 +1,0 @@
-gfxoffsety=0
-frames=4
-framespeed=10

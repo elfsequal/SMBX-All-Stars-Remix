@@ -1,3 +1,0 @@
-frames=10
-framespeed=8
-framestyle=0

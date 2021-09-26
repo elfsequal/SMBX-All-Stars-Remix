@@ -16,6 +16,7 @@ local metalCap = require("libs/metalCap")
 local aw = require("libs/anotherwalljump")
 
 aw.registerAllPlayersDefault()
+aw.blacklist(87)
 --ap.registerItemTier(981, true)
 --ap.registerPowerup("libs/ap_goldflower")
 --ap.registerItemTier(980, true)

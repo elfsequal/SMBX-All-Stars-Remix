@@ -628,7 +628,7 @@ ID:832;X:-197952;Y:-199008;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"l
 ID:833;X:-197952;Y:-199168;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 2-2.lvlx\"\,\n    \"path_down\"\: \"toSMB1 2-2\"\,\n    \"path_left\"\: \"toSMB1 2-3\"\n}\n";
 ID:834;X:-198016;Y:-199232;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 2-3.lvlx\"\,\n    \"path_left\"\: \"toSMB1 2-4\"\,\n    \"path_right\"\: \"toSMB1 2-3\"\n}\n";
 ID:858;X:-198080;Y:-199168;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 2-4.lvlx\"\,\n    \"path_down\"\: \"toSMB1 world3\"\,\n    \"path_left\"\: \"toSMB1 2-classic\"\,\n    \"path_up\"\: \"toSMB1 2-4\"\,\n    \"unlock_left\"\: 2\n}\n";
-ID:855;X:-198144;Y:-199168;D:-1;XTRA:"{\n    \"path_right\"\: \"toSMB1 2-classic\"\n}\n";
+ID:855;X:-198144;Y:-199168;D:-1;XTRA:"{\n    \"levelFilename\"\: \"SMB1 World 2 Classic.lvlx\"\,\n    \"path_right\"\: \"toSMB1 2-classic\"\n}\n";
 ID:855;X:-197792;Y:-198976;D:-1;XTRA:"{\n    \"levelFilename\"\: \"SMB1 World 1 Classic.lvlx\"\,\n    \"levelTitle\"\: \"Super Mario Bros World 1\"\,\n    \"path_left\"\: \"toSMB1 1-classic\"\n}\n";
 ID:841;X:-198048;Y:-199104;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelTitle\"\: \"SMB1 World 2\"\,\n    \"path_left\"\: \"toSMB1 world3\"\,\n    \"warpName\"\: \"smb1world2\"\n}\n";
 ID:841;X:-197728;Y:-199040;D:-1;XTRA:"{\n    \"alwaysVisible\"\: false\,\n    \"destinationWarpName\"\: \"test1\"\,\n    \"levelTitle\"\: \"Back to Game Select\"\,\n    \"path_up\"\: \"toSMB1 1-1\"\,\n    \"warpName\"\: \"smb1world1\"\n}\n";

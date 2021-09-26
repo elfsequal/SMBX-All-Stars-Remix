@@ -13,3 +13,4 @@ frames=4
 framestyle=1
 nohammer=1
 noshell=1
+grid=8
