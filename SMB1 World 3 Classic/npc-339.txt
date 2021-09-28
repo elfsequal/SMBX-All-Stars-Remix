@@ -1,0 +1,13 @@
+gfxoffsetx=0
+gfxoffsety=0
+gfxwidth=96
+gfxheight=16
+width=96
+height=16
+playerblock=0
+npcblock=0
+nohurt=1
+speed=1
+noblockcollision=0
+nogravity=1
+frames=1
