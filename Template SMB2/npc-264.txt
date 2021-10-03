@@ -1,0 +1,4 @@
+gfxoffsety=0
+framestyle=0
+framespeed=8
+frames=2
