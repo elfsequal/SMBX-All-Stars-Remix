@@ -1,0 +1,4 @@
+gfxoffsety=0
+frames=3
+width=48
+height=64

@@ -1,2 +1,0 @@
-grabtop=1
-grabside=1

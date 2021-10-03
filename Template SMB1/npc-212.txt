@@ -1,5 +1,0 @@
-height=32
-width=96
-gfxheight=32
-gfxwidth=96
-playerblock=0

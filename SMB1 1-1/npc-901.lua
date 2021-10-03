@@ -12,8 +12,8 @@ flagpoleNPC.castleBGOs = {}
 for i = 1, 16000 do
 	flagpoleNPC.castleBGOs[i] = false
 end
-flagpoleNPC.castleBGOs[16] = true
-flagpoleNPC.castleBGOs[17] = true
+flagpoleNPC.castleBGOs[840] = true
+flagpoleNPC.castleBGOs[843] = true
 
 local npcID = NPC_ID
 
@@ -141,7 +141,7 @@ local function player_collided(v)
 				Audio.SeizeStream(-1);
 				Misc.npcToCoins()
 				score(p.idx, v)
-				SFX.play("smb-exit.ogg")
+				SFX.play("audio/sfx/smb-exit.ogg")
 				flagpoleNPC.touched = true
 				p.keys.altJump = true
 				data.player = p 

@@ -1,0 +1,7 @@
+Multiple Sprites = WaluigiAdvanced
+Tileset Spritesheet = 	BMSantos
+World Map Tiles = Witchking666
+Goomba = Xander, Son of Xereus
+Pirahna Plants = CyberShadow
+Lakitu = Omega
+Spiny = Eric132

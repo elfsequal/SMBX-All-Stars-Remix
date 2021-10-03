@@ -2,7 +2,7 @@ local globalStuff = {}
 require("libs/nsmbwalls")
 require("libs/Twirl")
 
---local dropShadows = require("libs/dropShadows")
+local dropShadows = require("libs/dropShadows")
 
 local antizip = require("libs/antizip")
 local modernReserveItems = require("libs/modernReserveItems")
@@ -11,14 +11,19 @@ local anotherPowerDownLibrary = require("libs/anotherPowerDownLibrary")
 local extraNPCProperties = require("libs/extraNPCProperties")
 local warpTransition = require("libs/warpTransition")
 local playerphysicspatch = require("libs/playerphysicspatch")
-local metalCap = require("libs/metalCap")
---local ap = require("libs/anotherpowerup")
 local aw = require("libs/anotherwalljump")
+local ModernStyledHud = require("libs/ModernStyledHud")
+local scHUD = require("libs/scHUD")
+local rooms = require("libs/rooms")
+local textbox = require ("libs/customTextbox")
+--local metalCap = require("libs/metalCap")
 
 aw.registerAllPlayersDefault()
-aw.blacklist(87)
---ap.registerItemTier(981, true)
---ap.registerPowerup("libs/ap_goldflower")
---ap.registerItemTier(980, true)
---ap.registerPowerup("libs/ap_propellermushroom")
+--aw.blacklist(87)
+
+--local handycam = require("handycam")
+--handycam[1].zoom = 1
+
 local on ground = true
+
+

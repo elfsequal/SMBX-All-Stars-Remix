@@ -1,0 +1,46 @@
+{
+	"style" : "groupbox",
+	"title" : "Ball N Chain Settings",
+	"layout": [
+		{
+			"control": "spinbox",
+			"name": "speed",
+			"title": "Speed",
+			"tooltip": "Speed that the ball and chain spins.",
+			"type": "int",
+			"value-default": 25,
+			"value-min": 0,
+			"value-max": 200
+		},
+		{
+			"control": "spinbox",
+			"name": "length",
+			"title": "Length",
+			"tooltip": "# of segments on the ball and chain. (Including chain ball)",
+			"type": "int",
+			"value-default": 3,
+			"value-min": 1,
+			"value-max": 19
+		},
+		{
+			"control": "spinbox",
+			"name": "angle",
+			"title": "Starting Angle",
+			"tooltip": "Angle that the ball and chain starts at. (In degrees)",
+			"type": "int",
+			"value-default": 0,
+			"value-min": 0,
+			"value-max": 360
+		},
+		{
+			"control": "spinbox",
+			"name": "number",
+			"title": "Amount",
+			"tooltip": "Number of ball and chains to swing around the middle.",
+			"type": "int",
+			"value-default": 1,
+			"value-min": 1,
+			"value-max": 8
+		}
+	]
+}

@@ -560,7 +560,7 @@ ID:812;X:-199600;Y:-199280;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"d
 ID:752;X:-199600;Y:-199120;D:-1;XTRA:"{\n    \"name\"\: \"toYoshisIsland3\"\,\n    \"points\"\: \"0\,32\, 0\,-32\"\n}\n";
 ID:752;X:-199568;Y:-199152;D:-1;XTRA:"{\n    \"name\"\: \"toYoshisIsland4\"\,\n    \"points\"\: \"-32\,0\, 0\,0\, 32\,-32\, 32\,-64\"\n}\n";
 ID:752;X:-199536;Y:-199248;D:-1;XTRA:"{\n    \"name\"\: \"toYoshisIslandCastle\"\,\n    \"points\"\: \"0\,32\, 0\,0\, -32\,-32\, -64\,-32\"\n}\n";
-ID:801;X:-199600;Y:-199088;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"\"\,\n    \"levelTitle\"\: \"YOSHI'S ISLAND 2\"\,\n    \"path_left\"\: \"toYoshisIsland2\"\,\n    \"path_right\"\: \"\"\,\n    \"path_up\"\: \"toYoshisIsland3\"\n}\n";
+ID:801;X:-199600;Y:-199088;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"Template.lvlx\"\,\n    \"levelTitle\"\: \"YOSHI'S ISLAND 2\"\,\n    \"path_left\"\: \"toYoshisIsland2\"\,\n    \"path_right\"\: \"\"\,\n    \"path_up\"\: \"toYoshisIsland3\"\n}\n";
 ID:752;X:-199600;Y:-199312;D:-1;XTRA:"{\n    \"hideIfLocked\"\: true\,\n    \"name\"\: \"toDonutPlainsYI\"\,\n    \"points\"\: \"0\,32\, 0\,-128\"\,\n    \"types\"\: \"bridge\"\n}\n";
 ID:818;X:-199968;Y:-200192;D:-1;XTRA:"{\n    \"destroyAfterWin\"\: true\,\n    \"levelFilename\"\: \"greenSwitchPalace\"\,\n    \"levelTitle\"\: \"GREEN SWITCH PALACE\"\,\n    \"path_right\"\: \"toGreenSwitchPalace\"\n}\n";
 ID:751;X:-199696;Y:-199104;D:-1;
