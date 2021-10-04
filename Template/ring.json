@@ -1,0 +1,19 @@
+{
+  "style": "groupbox",
+  "title": "Ring Settings",
+  "layout": [
+    {
+          "control": "lineEdit",
+		  "name": "activate",
+          "title": "Activate coins with name...",
+          "value-default": "Default"
+    },
+	{
+		"control": "itemSelect",
+		"name": "prize",
+		"title": "Prize NPC id",
+		"type": "npc",
+		"value-default": "90"
+	}
+  ]
+}

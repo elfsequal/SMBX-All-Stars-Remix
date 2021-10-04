@@ -1,0 +1,12 @@
+{
+  "style": "groupbox",
+  "title": "Ring coin Settings",
+  "layout": [
+    {
+          "control": "lineEdit",
+		  "name": "name",
+          "title": "Name",
+          "value-default": "Default"
+    }
+  ]
+}

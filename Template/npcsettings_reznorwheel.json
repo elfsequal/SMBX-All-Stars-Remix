@@ -1,0 +1,84 @@
+{
+	"style" : "groupbox",
+	"title" : "Big Boo Settings",
+	"layout": [
+        {
+			"control": "itemSelect",
+			"name": "enemyID",
+			"title": "Enemy NPC",
+			"type": "npc",
+			"tooltip": "Which NPC appears on top of the platforms. Defaults to <b>Reznor</b>.",
+			"value-default": 0
+		},
+        {
+			"control": "itemSelect",
+			"name": "platformID",
+			"title": "Platform NPC",
+			"type": "npc",
+			"tooltip": "Which NPC is used as a platform by the enemy NPC's. Defaults to <b>Reznor Platform</b>.",
+			"value-default": 0
+		},
+		{
+			"control": "spinBox",
+			"name": "platformCount",
+			"title": "Platform/Enemy Count",
+			"type": "int",
+			"tooltip": "How many NPC's and enemies there are on the wheel.",
+			"value-default": 4,
+			"value-min": 1,
+			"value-max": 100
+		},
+        {
+			"control": "spinBox",
+			"name": "platformDistance",
+			"title": "Platform Distance",
+			"type": "int",
+			"tooltip": "How far away from the centre of the wheel each platform is.",
+			"value-default": 128,
+			"value-min": 0,
+			"value-max": 2048
+		},
+        {
+			"control": "spinBox",
+			"name": "rotationSpeed",
+			"title": "Rotation Speed",
+			"type": "double",
+			"tooltip": "How much the wheel turns each frame (in degrees).",
+			"value-default": 0.5,
+			"value-min": 0,
+			"value-max": 2048,
+            "decimals": 2
+		},
+        {
+			"control": "spinBox",
+			"name": "startingRotation",
+			"title": "Starting Rotation",
+			"type": "double",
+			"tooltip": "The rotation at which the wheel starts at (in degrees).",
+			"value-default": 0,
+			"value-min": 0,
+			"value-max": 2048,
+            "decimals": 2
+		},
+		{
+			"control": "spinbox",
+			"name": "lineSpeed",
+			"title": "Lineguided\nMovement Speed",
+			"type": "double",
+			"tooltip": "How fast it moves, if attached to a lineguide.",
+			"value-default": 1.5,
+			"value-min": 0,
+			"value-max": 360,
+			"decimals": 2,
+			"single-step": 0.1
+		},
+		{
+			"control": "lineEdit",
+			"name": "allDefeatedEvent",
+			"title": "All Defead Event Name",
+			"tooltip": "The name of the event triggered when all the enemy NPC's are killed.",
+			"value-default": ""
+		}
+	]
+}
+

@@ -1,0 +1,5 @@
+[1]
+onTick=TICK_ARC
+variants=10
+gravity=0.05
+lifetime = 42

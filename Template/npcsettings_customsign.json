@@ -1,0 +1,15 @@
+{
+	"style" : "groupbox",
+	"title" : "Custom Sign Settings",
+	"layout": [
+		{
+			"control": "combobox",
+			"name": "type",
+			"title": "Type",
+			"tooltip": "Custom Sign Type",
+			"elements": ["None", "Diagonal Up-Left", "Up", "Diagonal Up-Right", "Left", "Anywhere", "Right", "Diagonal Down-Left", "Down", "Diagonal Down-Right", "Question Mark", "Exclamation Mark", "Info Mark", "Coin", "Mushroom", "No Fire Frower", "Fire Flower", "P-Switch", "Koopa Shell", "Yoshi", "Yoshi Egg", "Skull Raft", "Berry", "No Yoshi", "No Yoshi Egg", "Bullet Bill", "On/Off", "Exit", "P-Balloon", "Springboard", "Lert/Right", "Up/Down" ],
+			"value-default": 0
+		}
+	]
+}
+

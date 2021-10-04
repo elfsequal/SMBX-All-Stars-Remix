@@ -1,0 +1,26 @@
+{
+  "style": "groupbox",
+  "title": "Graf Settings",
+  "layout": [
+    {
+      "control": "multiLineEdit",
+      "name": "stack",
+      "title": "Config",
+      "tooltip": "JSON to determine the stack properties.",
+      "value-default": ""
+    },
+    {
+      "control": "group",
+      "title": "Examples",
+      "children": [
+        {
+          "control": "lineEdit",
+          "title": "Goomba Stack",
+          "tooltip": "3 Goombas.",
+          "value-default": "{\"id\": 1, \"child\": {\"id\": 1, \"child\": {\"id\": 1}}}",
+          "read-only": true
+        }
+      ]
+    }
+  ]
+}
