@@ -16,6 +16,7 @@ local ModernStyledHud = require("libs/ModernStyledHud")
 local scHUD = require("libs/scHUD")
 local rooms = require("libs/rooms")
 local textbox = require ("libs/customTextbox")
+local flutterjump = require ("libs/flutterjump")
 --local metalCap = require("libs/metalCap")
 
 aw.registerAllPlayersDefault()

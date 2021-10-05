@@ -1,5 +1,5 @@
 HEAD
-TL:"Template";CPID:"SMBX2";
+TL:"Template";XTRA:"{\n    \"timer\"\: {\n        \"enable\"\: true\,\n        \"time\"\: 300\n    }\n}\n";CPID:"SMBX2";
 HEAD_END
 SECTION
 SC:0;L:-200000;R:-199200;T:-200600;B:-200000;MZ:0;MF:"";BG:13;

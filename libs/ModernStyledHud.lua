@@ -45,11 +45,11 @@ function modernhud.onInitAPI()
 end
 
 local function ModernHUD(camIndex,priority,isSplit)
-	Graphics.drawImageWP(timergfx,684,48,5)
+	Graphics.drawImageWP(timergfx,542,65,5)
 	if Level.settings.timer and Level.settings.timer.enable then
-		Text.printWP(string.format("%03d",Timer.getValue()),1,702,48,5)
+		Text.printWP(string.format("%03d",Timer.getValue()),1,560,65,5)
 	else
-		Text.printWP("000",1,702,48,5)
+		Text.printWP("000",1,560,65,5)
 	end
 	Graphics.drawImageWP(modernhudchar[player.character],32,38,5)
 	Text.printWP(string.format("%08d",SaveData._basegame.hud.score),1,506,48,5)

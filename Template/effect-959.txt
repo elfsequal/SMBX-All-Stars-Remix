@@ -1,0 +1,8 @@
+[1]
+lifetime=42
+speedY=-5.25
+gravity=0.265
+
+frames=4
+framespeed = 3
+framestyle = 0
