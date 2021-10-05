@@ -17,6 +17,7 @@ local scHUD = require("libs/scHUD")
 local rooms = require("libs/rooms")
 local textbox = require ("libs/customTextbox")
 local flutterjump = require ("libs/flutterjump")
+local spawnzones = require ("libs/spawnzones")
 --local metalCap = require("libs/metalCap")
 
 aw.registerAllPlayersDefault()

@@ -1,2 +1,3 @@
 gfxheight=28
 height=28
+grid=16

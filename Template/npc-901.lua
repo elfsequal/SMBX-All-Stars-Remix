@@ -12,8 +12,8 @@ flagpoleNPC.castleBGOs = {}
 for i = 1, 16000 do
 	flagpoleNPC.castleBGOs[i] = false
 end
-flagpoleNPC.castleBGOs[16] = true
-flagpoleNPC.castleBGOs[17] = true
+flagpoleNPC.castleBGOs[840] = true
+flagpoleNPC.castleBGOs[843] = true
 
 local npcID = NPC_ID
 

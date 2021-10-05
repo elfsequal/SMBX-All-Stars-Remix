@@ -73,7 +73,7 @@ end
 
 
 --Mushroom go right code
-local mushroom = {9, 184, 185}
+local mushroom = {9, 90, 184, 185, 186, 187, 293, 425}
 
 function onTick()
     for k,v in ipairs(NPC.get(mushroom)) do

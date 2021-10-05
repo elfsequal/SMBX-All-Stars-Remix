@@ -1,0 +1,6 @@
+[1]
+import=AI_ARC
+framestyle=1
+xAlign=MID
+yAlign=MID
+rotation=18
