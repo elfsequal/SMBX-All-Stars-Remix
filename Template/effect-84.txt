@@ -1,2 +1,0 @@
-width = 38
-height = 32

@@ -1,7 +1,0 @@
-gfxwidth=54
-gfxheight=64
-gfxoffsety=0
-frames=3
-framespeed=2
-width=54
-height=64

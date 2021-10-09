@@ -1,5 +1,0 @@
-playerblocktop=1
-npcblocktop=1
-grabtop=1
-nofireball=1
-speed=2

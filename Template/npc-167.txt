@@ -1,4 +1,0 @@
-gfxoffsety=0
-gfxheight=52
-frames=8
-framestyle=1

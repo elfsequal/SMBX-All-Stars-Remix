@@ -1,2 +1,0 @@
-gfxoffsety=2
-framespeed=2

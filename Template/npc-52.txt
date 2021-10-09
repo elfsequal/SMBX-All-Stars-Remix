@@ -1,3 +1,0 @@
-height=42
-width=50
-noyoshi=1

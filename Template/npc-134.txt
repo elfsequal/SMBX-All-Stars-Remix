@@ -1,3 +1,0 @@
-gfxwidth=32
-gfxheight=32
-framespeed=6

@@ -1,9 +1,0 @@
-gfxwidth=80
-gfxheight=60
-gfxoffsety=0
-width=58
-height=58
-health=15
-jumpdmg=5
-jumphurt=0
-cliffturn=1
