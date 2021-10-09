@@ -1,0 +1,2 @@
+width=72
+height=34

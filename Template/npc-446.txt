@@ -1,0 +1,5 @@
+gfxwidth=40
+gfxheight=52
+width=32
+height=32
+image="npc-446.png"

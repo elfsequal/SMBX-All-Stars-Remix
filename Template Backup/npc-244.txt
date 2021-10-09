@@ -1,0 +1,2 @@
+gfxwidth=64
+gfxoffsety=2

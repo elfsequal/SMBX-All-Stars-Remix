@@ -1,0 +1,4 @@
+gfxwidth=42
+gfxheight=42
+height=28
+effectid=146

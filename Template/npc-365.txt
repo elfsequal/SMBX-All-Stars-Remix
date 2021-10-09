@@ -1,0 +1,2 @@
+gfxwidth=38
+gfxheight=34

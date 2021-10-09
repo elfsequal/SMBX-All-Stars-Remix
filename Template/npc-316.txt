@@ -1,0 +1,5 @@
+gfxoffsetx=-18
+gfxwidth=98
+gfxheight=88
+width=54
+height=54

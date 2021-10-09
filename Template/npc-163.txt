@@ -1,0 +1,7 @@
+gfxwidth=42
+gfxheight=36
+width=42
+height=36
+frames=7
+framestyle=1
+grid=16

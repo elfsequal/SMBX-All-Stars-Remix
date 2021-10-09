@@ -1,0 +1,3 @@
+gfxwidth=52
+width=36
+grid=16

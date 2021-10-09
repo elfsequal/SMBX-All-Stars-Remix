@@ -1,0 +1,1 @@
+gfxwidth=34

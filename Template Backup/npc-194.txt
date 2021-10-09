@@ -1,0 +1,2 @@
+gfxoffsety=0
+framespeed=3
