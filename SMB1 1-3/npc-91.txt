@@ -1,2 +1,0 @@
-gfxoffsety=-16
-frames=4

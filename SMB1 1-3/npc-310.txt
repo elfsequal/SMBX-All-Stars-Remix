@@ -1,5 +1,0 @@
-gfxwidth=60
-gfxheight=64
-width=60
-height=64
-grid=16

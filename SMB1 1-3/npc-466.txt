@@ -1,8 +1,0 @@
-gfxoffsetx=1
-gfxoffsety=0
-gfxwidth=75
-gfxheight=64
-width=60
-height=51
-frames=8
-framespeed=8
