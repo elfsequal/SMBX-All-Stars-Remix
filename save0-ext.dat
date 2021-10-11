@@ -1,0 +1,237 @@
+{
+--[1]--
+{
+   ["smwMap"]={2},
+   ["__costumes"]={3},
+   ["__launcher"]={4},
+   ["_basegame"]={5}
+},
+--[2]--
+{
+   ["encounterData"]={6},
+   ["beatenLevels"]={7},
+   ["playerX"]=-197840,
+   ["playerY"]=-198960,
+   ["unlockedCheckpoints"]={8},
+   ["unlockedPaths"]={9}
+},
+--[3]--
+{
+
+},
+--[4]--
+{
+
+},
+--[5]--
+{
+   ["bigSwitch"]={10},
+   ["_characterdata"]={11},
+   ["starcoin"]={12},
+   ["hud"]={13},
+   ["starcoinCounter"]=3
+},
+--[6]--
+{
+   {14}
+},
+--[7]--
+{
+   ["SMB1 1-1.lvlx"]=true,
+   ["SMB1 1-3.lvlx"]=true,
+   ["SMB1 1-4.lvlx"]=true,
+   ["SMB1 1-2.lvlx"]=true
+},
+--[8]--
+{
+   ["SMB1 1-1.lvlx"]={15}
+},
+--[9]--
+{
+   ["toSMB1 1-4"]=true,
+   ["toSMB1 1-2 secret"]=true,
+   ["toYellowSwitchYI"]=true,
+   ["toSMB1 2-1"]=true,
+   ["toYellowSwitchMain"]=true,
+   ["toYoshisIsland1"]=true,
+   ["toSMB1 1-classic"]=true,
+   ["toYoshisIsland2"]=true,
+   ["toSMB1 1-3"]=true,
+   ["toSMB1 1-1"]=true,
+   ["toSMB1 1-2"]=true,
+   ["toCroissantCapeCC"]=true
+},
+--[10]--
+{
+
+},
+--[11]--
+{
+   ["8"]={16},
+   ["10"]={17},
+   ["9"]={18},
+   ["6"]={19},
+   ["16"]={20},
+   ["11"]={21},
+   ["12"]={22},
+   ["7"]={23},
+   ["15"]={24},
+   ["13"]={25},
+   ["14"]={26}
+},
+--[12]--
+{
+   ["SMB1 1-1.lvlx"]={27},
+   ["SMB1 World 1 Classic.lvlx"]={28},
+   ["map.lvlx"]={29},
+   ["SMB1 1-2.lvlx"]={30}
+},
+--[13]--
+{
+   ["score"]=71860
+},
+--[14]--
+{
+   ["y"]=-198560,
+   ["x"]=-198624,
+   ["killed"]=false
+},
+--[15]--
+{
+   true
+},
+--[16]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[17]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[18]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[19]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[20]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[21]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[22]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[23]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[24]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[25]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[26]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[27]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={31}
+},
+--[28]--
+{
+   ["maxID"]=0,
+   ["alive"]={32}
+},
+--[29]--
+{
+   ["maxID"]=0,
+   ["alive"]={33}
+},
+--[30]--
+{
+   0,
+   0,
+   0,
+   ["maxID"]=3,
+   ["alive"]={34}
+},
+--[31]--
+{
+   true,
+   true,
+   true
+},
+--[32]--
+{
+
+},
+--[33]--
+{
+
+},
+--[34]--
+{
+   true,
+   true,
+   true
+}
+}

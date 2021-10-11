@@ -1,0 +1,7 @@
+frames = 1
+framespeed = 8
+noshadows = false
+priority = -85
+image = "background-840.png"
+width = 152
+height = 160

@@ -1,0 +1,8 @@
+frames = 1
+framespeed = 8
+noshadows = false
+priority = -85
+image = "background-843.png"
+width = 288
+height = 360
+grid=8

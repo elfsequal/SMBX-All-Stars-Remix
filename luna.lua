@@ -1,4 +1,4 @@
-require("libs/globalStuff")
+--require("libs/globalStuff")
 
 local smwMap = require("smwMap")
 
@@ -81,4 +81,8 @@ function onTick()
             v.direction = DIR_RIGHT
         end
     end
+end
+
+function onExitLevel()
+	player:transform(1)
 end
