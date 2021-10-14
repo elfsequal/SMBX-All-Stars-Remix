@@ -1,15 +1,15 @@
 --Alternate Death by Fireball System--
 --by Nat The Porcupine--
 
-local altfiredeathsystem = {};
-local colliders = API.load("colliders"); 
-local coinStyleTable = {["SMB1"] = 88, ["SMB2"] = 138, ["SMB3"] = 10, ["SMW"] = 33, ["Zelda"] = 251, ["Sonic"] = 152};
-local coinStyle = "SMB3";
+local altfiredeathsystem = {}
+local colliders = require("colliders")
+local coinStyleTable = {["SMB1"] = 88, ["SMB2"] = 138, ["SMB3"] = 10, ["SMW"] = 33, ["Zelda"] = 251, ["Sonic"] = 152}
+local coinStyle = "SMB3"
 
 function altfiredeathsystem.onInitAPI()
-	registerEvent(altfiredeathsystem, "onTick", "onTick");
-	registerEvent(altfiredeathsystem, "onNPCKill", "onNPCKill");
-	registerEvent(altfiredeathsystem, "onTickEnd", "onTickEnd");
+	registerEvent(altfiredeathsystem, "onTick", "onTick")
+	registerEvent(altfiredeathsystem, "onNPCKill", "onNPCKill")
+	registerEvent(altfiredeathsystem, "onTickEnd", "onTickEnd")
 end
 
 function altfiredeathsystem.onTick()
@@ -41,12 +41,14 @@ function altfiredeathsystem.onNPCKill(event,npc,reason)
 						coin.speedX = fireball.direction * 0.75;	--Sets the X speed of the coin
 						coin.speedY = -4;	--Sets the Y speed of the coin
 						coin.ai1 = 1;	--Enables gravity
+						npc:kill(9);
+						playSFX(9);
+						return
 					end
 				end
 			end
 		end
-			
-		npc:kill(9);
+		npc:kill(4);
 		playSFX(9);
 		
 	end

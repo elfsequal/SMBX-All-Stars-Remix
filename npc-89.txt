@@ -7,3 +7,4 @@ height=25
 frames=8
 framespeed=6
 framestyle=0
+grid=16

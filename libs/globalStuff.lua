@@ -28,5 +28,3 @@ aw.registerAllPlayersDefault()
 --handycam[1].zoom = 1
 
 local on ground = true
-
-

@@ -1,2 +1,3 @@
 gfxwidth=32
 width=32
+grid=16

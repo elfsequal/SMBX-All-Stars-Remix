@@ -1,4 +1,4 @@
-frames = 1
+frames = 4
 framespeed = 8
 noshadows = false
 priority = -85

@@ -10,8 +10,8 @@
 {
    ["encounterData"]={6},
    ["beatenLevels"]={7},
-   ["playerX"]=-197840,
-   ["playerY"]=-198960,
+   ["playerX"]=-197712,
+   ["playerY"]=-199088,
    ["unlockedCheckpoints"]={8},
    ["unlockedPaths"]={9}
 },
@@ -27,9 +27,9 @@
 {
    ["bigSwitch"]={10},
    ["_characterdata"]={11},
-   ["starcoin"]={12},
-   ["hud"]={13},
-   ["starcoinCounter"]=3
+   ["starcoinCounter"]=6,
+   ["hud"]={12},
+   ["starcoin"]={13}
 },
 --[6]--
 {
@@ -37,10 +37,7 @@
 },
 --[7]--
 {
-   ["SMB1 1-1.lvlx"]=true,
-   ["SMB1 1-3.lvlx"]=true,
-   ["SMB1 1-4.lvlx"]=true,
-   ["SMB1 1-2.lvlx"]=true
+   ["SMB1 1-1.lvlx"]=true
 },
 --[8]--
 {
@@ -48,18 +45,11 @@
 },
 --[9]--
 {
-   ["toSMB1 1-4"]=true,
-   ["toSMB1 1-2 secret"]=true,
-   ["toYellowSwitchYI"]=true,
-   ["toSMB1 2-1"]=true,
-   ["toYellowSwitchMain"]=true,
-   ["toYoshisIsland1"]=true,
-   ["toSMB1 1-classic"]=true,
-   ["toYoshisIsland2"]=true,
-   ["toSMB1 1-3"]=true,
    ["toSMB1 1-1"]=true,
-   ["toSMB1 1-2"]=true,
-   ["toCroissantCapeCC"]=true
+   ["toYoshisIsland1"]=true,
+   ["toYoshisIsland2"]=true,
+   ["toCroissantCapeCC"]=true,
+   ["toSMB1 1-2"]=true
 },
 --[10]--
 {
@@ -81,14 +71,16 @@
 },
 --[12]--
 {
-   ["SMB1 1-1.lvlx"]={27},
-   ["SMB1 World 1 Classic.lvlx"]={28},
-   ["map.lvlx"]={29},
-   ["SMB1 1-2.lvlx"]={30}
+   ["score"]=103360
 },
 --[13]--
 {
-   ["score"]=71860
+   ["SMB1 1-2.lvlx"]={27},
+   ["SMB1 World 1 Classic.lvlx"]={28},
+   ["SMB1 1-1.lvlx"]={29},
+   ["SMB1 1-4.lvlx"]={30},
+   ["map.lvlx"]={31},
+   ["SMB1 1-3.lvlx"]={32}
 },
 --[14]--
 {
@@ -194,41 +186,69 @@
    1,
    1,
    ["maxID"]=3,
-   ["alive"]={31}
+   ["alive"]={33}
 },
 --[28]--
 {
    ["maxID"]=0,
-   ["alive"]={32}
+   ["alive"]={34}
 },
 --[29]--
 {
-   ["maxID"]=0,
-   ["alive"]={33}
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={35}
 },
 --[30]--
+{
+   2,
+   0,
+   0,
+   ["maxID"]=3,
+   ["alive"]={36}
+},
+--[31]--
+{
+   ["maxID"]=0,
+   ["alive"]={37}
+},
+--[32]--
 {
    0,
    0,
    0,
    ["maxID"]=3,
-   ["alive"]={34}
+   ["alive"]={38}
 },
---[31]--
+--[33]--
 {
    true,
    true,
    true
 },
---[32]--
-{
-
-},
---[33]--
-{
-
-},
 --[34]--
+{
+
+},
+--[35]--
+{
+   true,
+   true,
+   true
+},
+--[36]--
+{
+   true,
+   true,
+   true
+},
+--[37]--
+{
+
+},
+--[38]--
 {
    true,
    true,

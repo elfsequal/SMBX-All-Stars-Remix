@@ -1,0 +1,8 @@
+fill-color=#59c7d7
+
+[Hills]
+depth=150
+alignY=BOTTOM
+img="background2-11.png"
+repeatX=true
+repeatY=false
