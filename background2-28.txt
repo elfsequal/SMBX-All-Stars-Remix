@@ -1,0 +1,9 @@
+fill-color=#aff5ff
+
+[Wallpaper]
+frames=2
+depth=150
+alignY=BOTTOM
+img="parallax/bonus.png"
+repeatX=true
+repeatY=false

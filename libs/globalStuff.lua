@@ -20,7 +20,6 @@ local spawnzones = require ("libs/spawnzones")
 local deathTracker = require("libs/deathTracker")
 local altfiredeathsystem = require("libs/altfiredeathsystem")
 
-
 aw.registerAllPlayersDefault()
 --aw.blacklist(87)
 
