@@ -17,6 +17,7 @@
 local smwMap = {}
 
 
+
 -- Name of the level file that the map is on.
 smwMap.levelFilename = "map.lvlx"
 

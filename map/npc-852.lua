@@ -15,22 +15,14 @@ local obj = {}
 
 
 smwMap.setObjSettings(npcID,{
-    framesY = 2,
+    framesY = 1,
 
     onTickObj = (function(v)
-        local totalFrames = smwMap.getObjectConfig(v.id).framesY
-
-        if v.levelDestroyed then
-            v.frameY = (totalFrames - 1)
-        else
-            v.frameY = smwMap.doBasicAnimation(v,totalFrames - 1,8)
-        end
+        v.frameY = smwMap.doBasicAnimation(v,smwMap.getObjectConfig(v.id).framesY,6)
     end),
 
     isLevel = true,
-
-    hasDestroyedAnimation = true,
-    isBonusLevel = true,
+    isWarp = true,
 })
 
 
