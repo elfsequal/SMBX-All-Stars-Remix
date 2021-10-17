@@ -22,7 +22,7 @@
 			"name": "types",
 			"title": "Types",
 			"tooltip": "The types of path used for each point, in order, separated by a comma.",
-			"value-default": "",
+			"value-default": "newNormal",
 			"placeholder": "normal, normal, trail, etc"
 		},
 		{

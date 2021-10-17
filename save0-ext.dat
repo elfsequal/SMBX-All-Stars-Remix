@@ -1,0 +1,204 @@
+{
+--[1]--
+{
+   ["smwMap"]={2},
+   ["__costumes"]={3},
+   ["__launcher"]={4},
+   ["_basegame"]={5}
+},
+--[2]--
+{
+   ["encounterData"]={6},
+   ["beatenLevels"]={7},
+   ["playerX"]=-198752,
+   ["playerY"]=-200336,
+   ["unlockedCheckpoints"]={8},
+   ["unlockedPaths"]={9}
+},
+--[3]--
+{
+
+},
+--[4]--
+{
+
+},
+--[5]--
+{
+   ["bigSwitch"]={10},
+   ["_characterdata"]={11},
+   ["starcoin"]={12},
+   ["hud"]={13},
+   ["starcoinCounter"]=0
+},
+--[6]--
+{
+
+},
+--[7]--
+{
+   [""]=true
+},
+--[8]--
+{
+
+},
+--[9]--
+{
+   ["toSMB1 4-Secret"]=true,
+   ["toSMB1 7-2"]=true,
+   ["toSMB1 3-Exit"]=true,
+   ["toSMB1 4-4"]=true,
+   ["toSMB1Door-4-1"]=true,
+   ["toSMB1 5-2"]=true,
+   ["toSMB1 7-4"]=true,
+   ["toSMB1 8-2"]=true,
+   ["toSMB1 4-Pipe"]=true,
+   ["toSMB1 6-3"]=true,
+   ["toSMB1 6-4"]=true,
+   ["toSMB1 7-1"]=true,
+   ["toSMB1 8-End"]=true,
+   ["toSMB1 4-3"]=true,
+   ["toSMB1 7-3"]=true,
+   ["toSMB1 4-2"]=true,
+   ["toSMB1 5-1"]=true,
+   ["toSMB1 6-Classic"]=true,
+   ["toSMB1 8-3"]=true,
+   ["toSMB1 5-Classic"]=true,
+   ["toSMB1 6-1"]=true,
+   ["toSMB1 7-Pipe"]=true,
+   ["toSMB1 4-Classic"]=true,
+   ["toSMB1 6-2"]=true,
+   ["toSMB1 8-Classic"]=true,
+   ["toSMB1 5-4"]=true,
+   ["toSMB1 7-Classic"]=true,
+   ["toSMB1 8-4"]=true,
+   ["toSMB1 8-1"]=true,
+   ["toSMB1 5-3"]=true,
+   ["toSMB1 3-4"]=true,
+   ["toSMB1 3-Classic"]=true
+},
+--[10]--
+{
+
+},
+--[11]--
+{
+   ["8"]={14},
+   ["10"]={15},
+   ["9"]={16},
+   ["6"]={17},
+   ["16"]={18},
+   ["11"]={19},
+   ["12"]={20},
+   ["7"]={21},
+   ["15"]={22},
+   ["13"]={23},
+   ["14"]={24}
+},
+--[12]--
+{
+   ["map.lvlx"]={25}
+},
+--[13]--
+{
+   ["score"]=0
+},
+--[14]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[15]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[16]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[17]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[18]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[19]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[20]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[21]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[22]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[23]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[24]--
+{
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[25]--
+{
+   ["maxID"]=0,
+   ["alive"]={26}
+},
+--[26]--
+{
+
+}
+}

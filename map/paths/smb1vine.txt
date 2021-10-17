@@ -1,2 +1,0 @@
-isLadder=true
-autoStraighten=true
