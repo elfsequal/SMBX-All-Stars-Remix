@@ -1,8 +1,8 @@
 frames = 1
 framespeed = 8
 noshadows = false
-semisolid = false
-passthrough = false
+semisolid = true
+passthrough = true
 floorslope = 0
 ceilingslope = 0
 smashable = 0
