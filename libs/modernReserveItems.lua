@@ -185,9 +185,9 @@ local thrownNPCSettings = {
 }
 
 local patternPresets = {
-	mushroom = {9, 75, 90, 153, 184, 185, 186, 187, 273, 462},
+	mushroom = {9, 14, 75, 90, 153, 184, 185, 186, 187, 273, 462},
 	thrown = {16, 41, 97},
-	stationary = {14, 34, 94, 101, 102, 198},
+	stationary = {34, 94, 101, 102, 198},
 	stationaryPowerup = {169, 170, 182, 183, 240, 249, 254, 264, 277, 559}
 }
 

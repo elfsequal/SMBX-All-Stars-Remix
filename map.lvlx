@@ -72,12 +72,12 @@ ID:752;X:-198112;Y:-199744;D:-1;XTRA:"{\n    \"hideIfLocked\"\: false\,\n    \"n
 ID:832;X:-198112;Y:-199712;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"path_left\"\: \"toSMB1 4-2\"\,\n    \"path_up\"\: \"toSMB1Door-4-1\"\,\n    \"unlock_up\"\: 1\n}\n";
 ID:832;X:-198208;Y:-199664;D:-1;XTRA:"{\n    \"path_right\"\: \"toSMB1 4-Secret\"\n}\n";
 ID:752;X:-197792;Y:-199648;D:-1;XTRA:"{\n    \"hideIfLocked\"\: true\,\n    \"name\"\: \"toSMB1 1-Classic\"\,\n    \"points\"\: \"32\,0\, -32\,0\"\,\n    \"types\"\: \"newNormal\"\n}\n";
-ID:832;X:-198016;Y:-199936;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 2-3.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 2-3\"\,\n    \"path_down\"\: \"\"\,\n    \"path_left\"\: \"toSMB1 2-4\"\,\n    \"path_right\"\: \"toSMB1 2-3\"\n}\n";
+ID:832;X:-198016;Y:-199936;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 2-3.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 2-3\"\,\n    \"path_down\"\: \"\"\,\n    \"path_left\"\: \"toSMB1 2-4\"\,\n    \"path_right\"\: \"toSMB1 2-3\"\,\n    \"unlock_left\"\: 10\,\n    \"unlock_up\"\: 0\n}\n";
 ID:752;X:-197696;Y:-199680;D:-1;XTRA:"{\n    \"name\"\: \"toSMB1 1-1\"\,\n    \"points\"\: \"0\,16\, 0\,-64\"\,\n    \"types\"\: \"newNormal\"\n}\n";
 ID:838;X:-198176;Y:-199776;D:-1;
 ID:832;X:-198240;Y:-199744;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"path_down\"\: \"toSMB1 4-3\"\,\n    \"path_up\"\: \"toSMB1 4-4\"\n}\n";
 ID:752;X:-197728;Y:-199744;D:-1;XTRA:"{\n    \"name\"\: \"toSMB1 1-2\"\,\n    \"points\"\: \"32\,0\, -32\,0\"\,\n    \"types\"\: \"newNormal\"\n}\n";
-ID:832;X:-197920;Y:-199696;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 2-1.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 2-1\"\,\n    \"path_right\"\: \"toSMB1 2-1\"\,\n    \"path_up\"\: \"toSMB1 2-2\"\,\n    \"unlock_up\"\: 3\n}\n";
+ID:832;X:-197920;Y:-199696;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 2-1.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 2-1\"\,\n    \"path_right\"\: \"toSMB1 2-1\"\,\n    \"path_up\"\: \"toSMB1 2-2\"\,\n    \"unlock_up\"\: 2\n}\n";
 ID:752;X:-198128;Y:-199872;D:-1;XTRA:"{\n    \"hideIfLocked\"\: true\,\n    \"name\"\: \"toSMB1 2-Classic\"\,\n    \"points\"\: \"32\,0\, -32\,0\"\,\n    \"types\"\: \"newNormal\"\n}\n";
 ID:752;X:-197824;Y:-199680;D:-1;XTRA:"{\n    \"name\"\: \"toSMB1 1-4\"\,\n    \"points\"\: \"0\,32\, 0\,-32\"\,\n    \"types\"\: \"newNormal\"\n}\n";
 ID:753;X:-198432;Y:-200000;D:-1;XTRA:"{\n    \"backgroundName\"\: \"newWater\"\,\n    \"customMusicPath\"\: \"audio/music/map/Grassland.ogg\"\,\n    \"height\"\: 480\,\n    \"music\"\: 2\,\n    \"restrictCamera\"\: true\,\n    \"width\"\: 832\n}\n";

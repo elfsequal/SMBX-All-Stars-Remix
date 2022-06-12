@@ -10,8 +10,8 @@
 {
    ["encounterData"]={6},
    ["beatenLevels"]={7},
-   ["playerX"]=-197744,
-   ["playerY"]=-199632,
+   ["playerX"]=-198080,
+   ["playerY"]=-199856,
    ["unlockedCheckpoints"]={8},
    ["unlockedPaths"]={9}
 },
@@ -27,9 +27,9 @@
 {
    ["bigSwitch"]={10},
    ["_characterdata"]={11},
-   ["starcoinCounter"]=12,
-   ["hud"]={12},
-   ["starcoin"]={13}
+   ["starcoin"]={12},
+   ["hud"]={13},
+   ["starcoinCounter"]=21
 },
 --[6]--
 {
@@ -37,27 +37,39 @@
 },
 --[7]--
 {
-   ["SMB1 1-1.lvlx"]=true,
-   ["SMB1 1-3.lvlx"]=true,
    ["SMB1 1-2.lvlx"]=true,
-   ["SMB1 1-4.lvlx"]=true
+   ["SMB1 1-3.lvlx"]=true,
+   ["SMB1 2-3.lvlx"]=true,
+   ["SMB1 World 1 Classic.lvlx"]=true,
+   ["SMB1 1-1.lvlx"]=true,
+   ["SMB1 1-4.lvlx"]=true,
+   ["SMB1 2-1.lvlx"]=true,
+   ["SMB1 2-2.lvlx"]=true
 },
 --[8]--
 {
-   ["SMB1 1-1.lvlx"]={14},
-   ["SMB1 1-4.lvlx"]={15},
-   ["SMB1 1-2.lvlx"]={16},
-   ["SMB1 World 1 Classic.lvlx"]={17}
+   ["SMB1 1-2.lvlx"]={14},
+   ["SMB1 1-3.lvlx"]={15},
+   ["SMB1 2-3.lvlx"]={16},
+   ["SMB1 World 1 Classic.lvlx"]={17},
+   ["SMB1 1-1.lvlx"]={18},
+   ["SMB1 1-4.lvlx"]={19},
+   ["SMB1 2-1.lvlx"]={20},
+   ["SMB1 2-2.lvlx"]={21}
 },
 --[9]--
 {
-   ["toSMB1 1-1"]=true,
-   ["toSMB1 1-4"]=true,
+   ["toSMB1 2-3"]=true,
    ["toSMB1Door-4-1"]=true,
-   ["toSMB1 1-3"]=true,
+   ["toSMB1 1-Classic"]=true,
+   ["toSMB1 1-1"]=true,
+   ["toSMB1 2-4"]=true,
    ["toSMB1 2-1"]=true,
+   ["toSMB1 1-Secret"]=true,
+   ["toSMB1 1-3"]=true,
+   ["toSMB1 2-2"]=true,
    ["toSMB1 1-2"]=true,
-   ["toSMB1 1-Classic"]=true
+   ["toSMB1 1-4"]=true
 },
 --[10]--
 {
@@ -65,30 +77,34 @@
 },
 --[11]--
 {
-   ["8"]={18},
-   ["10"]={19},
-   ["9"]={20},
-   ["6"]={21},
-   ["16"]={22},
-   ["11"]={23},
-   ["12"]={24},
-   ["7"]={25},
-   ["15"]={26},
-   ["13"]={27},
-   ["14"]={28}
+   ["8"]={22},
+   ["10"]={23},
+   ["9"]={24},
+   ["6"]={25},
+   ["16"]={26},
+   ["11"]={27},
+   ["12"]={28},
+   ["7"]={29},
+   ["15"]={30},
+   ["13"]={31},
+   ["14"]={32}
 },
 --[12]--
 {
-   ["score"]=70990
+   ["SMB1 1-2.lvlx"]={33},
+   ["SMB1 2-3.lvlx"]={34},
+   ["SMB1 1-1.lvlx"]={35},
+   ["SMB1 1-4.lvlx"]={36},
+   ["SMB1 1-3.lvlx"]={37},
+   ["SMB1 2-2.lvlx"]={38},
+   ["SMB1 2-4.lvlx"]={39},
+   ["SMB1 2-1.lvlx"]={40},
+   ["map.lvlx"]={41},
+   ["SMB1 World 1 Classic.lvlx"]={42}
 },
 --[13]--
 {
-   ["SMB1 1-2.lvlx"]={29},
-   ["SMB1 1-3.lvlx"]={30},
-   ["SMB1 1-1.lvlx"]={31},
-   ["SMB1 1-4.lvlx"]={32},
-   ["map.lvlx"]={33},
-   ["SMB1 World 1 Classic.lvlx"]={34}
+   ["score"]=141170
 },
 --[14]--
 {
@@ -105,39 +121,24 @@
 --[17]--
 {
    true,
+   true,
    true
 },
 --[18]--
 {
-   ["reservePowerup"]=0,
-   ["0x10A"]=0,
-   ["powerup"]=1,
-   ["0x16"]=1,
-   ["0x108"]=0
+   true
 },
 --[19]--
 {
-   ["reservePowerup"]=0,
-   ["0x10A"]=0,
-   ["powerup"]=1,
-   ["0x16"]=1,
-   ["0x108"]=0
+   true
 },
 --[20]--
 {
-   ["reservePowerup"]=0,
-   ["0x10A"]=0,
-   ["powerup"]=1,
-   ["0x16"]=1,
-   ["0x108"]=0
+   true
 },
 --[21]--
 {
-   ["reservePowerup"]=0,
-   ["0x10A"]=0,
-   ["powerup"]=1,
-   ["0x16"]=1,
-   ["0x108"]=0
+   true
 },
 --[22]--
 {
@@ -197,75 +198,163 @@
 },
 --[29]--
 {
-   1,
-   1,
-   1,
-   ["maxID"]=3,
-   ["alive"]={35}
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
 },
 --[30]--
 {
-   1,
-   1,
-   1,
-   ["maxID"]=3,
-   ["alive"]={36}
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
 },
 --[31]--
 {
-   1,
-   1,
-   1,
-   ["maxID"]=3,
-   ["alive"]={37}
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
 },
 --[32]--
 {
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
+},
+--[33]--
+{
    1,
    1,
    1,
    ["maxID"]=3,
-   ["alive"]={38}
-},
---[33]--
-{
-   ["maxID"]=0,
-   ["alive"]={39}
+   ["alive"]={43}
 },
 --[34]--
 {
-   ["maxID"]=0,
-   ["alive"]={40}
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={44}
 },
 --[35]--
 {
-   true,
-   true,
-   true
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={45}
 },
 --[36]--
 {
-   true,
-   true,
-   true
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={46}
 },
 --[37]--
 {
-   true,
-   true,
-   true
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={47}
 },
 --[38]--
 {
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={48}
+},
+--[39]--
+{
+   0,
+   0,
+   0,
+   ["maxID"]=3,
+   ["alive"]={49}
+},
+--[40]--
+{
+   1,
+   1,
+   1,
+   ["maxID"]=3,
+   ["alive"]={50}
+},
+--[41]--
+{
+   ["maxID"]=0,
+   ["alive"]={51}
+},
+--[42]--
+{
+   ["maxID"]=0,
+   ["alive"]={52}
+},
+--[43]--
+{
    true,
    true,
    true
 },
---[39]--
+--[44]--
+{
+   true,
+   true,
+   true
+},
+--[45]--
+{
+   true,
+   true,
+   true
+},
+--[46]--
+{
+   true,
+   true,
+   true
+},
+--[47]--
+{
+   true,
+   true,
+   true
+},
+--[48]--
+{
+   true,
+   true,
+   true
+},
+--[49]--
+{
+   true,
+   true,
+   true
+},
+--[50]--
+{
+   true,
+   true,
+   true
+},
+--[51]--
 {
 
 },
---[40]--
+--[52]--
 {
 
 }
