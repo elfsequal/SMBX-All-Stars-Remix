@@ -1,0 +1,6 @@
+gfxoffsety=0
+gfxwidth=34
+gfxheight=28
+width=34
+height=30
+frames=1

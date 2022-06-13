@@ -57,7 +57,7 @@ ID:832;X:-197952;Y:-200416;D:-1;XTRA:"{\n    \"path_down\"\: \"toSMB1 7-2\"\,\n 
 ID:832;X:-197888;Y:-200416;D:-1;XTRA:"{\n    \"path_left\"\: \"toSMB1 7-3\"\,\n    \"path_right\"\: \"toSMB1 7-4\"\n}\n";
 ID:847;X:-197856;Y:-200464;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"path_down\"\: \"toSMB1 7-4\"\,\n    \"path_left\"\: \"toSMB1 7-Pipe\"\,\n    \"path_up\"\: \"toSMB1 7-Classic\"\,\n    \"unlock_left\"\: 9\,\n    \"unlock_up\"\: 6\n}\n";
 ID:834;X:-197856;Y:-200512;D:-1;XTRA:"{\n    \"path_down\"\: \"toSMB1 7-Classic\"\n}\n";
-ID:843;X:-197904;Y:-200464;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"destinationWarpName\"\: \"SMB1 World 8\"\,\n    \"levelTitle\"\: \"To World 8\"\,\n    \"warpName\"\: \"SMB1 World 7\"\n}\n";
+ID:843;X:-197904;Y:-200464;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"destinationWarpName\"\: \"SMB1 World 8\"\,\n    \"levelTitle\"\: \"To World 8\"\,\n    \"path_right\"\: \"toSMB1 7-Pipe\"\,\n    \"warpName\"\: \"SMB1 World 7\"\n}\n";
 ID:843;X:-198880;Y:-200160;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"destinationWarpName\"\: \"SMB1 World 7\"\,\n    \"levelTitle\"\: \"To World 7\"\,\n    \"path_right\"\: \"toSMB1 8-1\"\,\n    \"warpName\"\: \"SMB1 World 8\"\n}\n";
 ID:842;X:-198320;Y:-200448;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"destinationWarpName\"\: \"SMB1 World 4\"\,\n    \"levelTitle\"\: \"To World 4\"\,\n    \"path_right\"\: \"toSMB1 5-1\"\,\n    \"warpName\"\: \"SMB1 World 5\"\n}\n";
 ID:832;X:-198800;Y:-200128;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"global\"\: {\n        \"noblockcollision\"\: false\n    }\,\n    \"path_left\"\: \"toSMB1 8-1\"\,\n    \"path_right\"\: \"toSMB1 8-2\"\n}\n";
@@ -65,7 +65,7 @@ ID:832;X:-198736;Y:-200160;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"p
 ID:832;X:-198768;Y:-200224;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"path_down\"\: \"toSMB1 8-3\"\,\n    \"path_up\"\: \"toSMB1 8-4\"\n}\n";
 ID:849;X:-198768;Y:-200352;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"path_down\"\: \"toSMB1 8-4\"\,\n    \"path_right\"\: \"toSMB1 8-Classic\"\,\n    \"path_up\"\: \"toSMB1 8-End\"\,\n    \"unlock_right\"\: 6\,\n    \"unlock_up\"\: 9\n}\n";
 ID:834;X:-198672;Y:-200352;D:-1;XTRA:"{\n    \"alwaysVisible\"\: false\,\n    \"path_left\"\: \"toSMB1 8-Classic\"\n}\n";
-ID:836;X:-198768;Y:-200448;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"path_down\"\: \"toSMB1 8-End\"\n}\n";
+ID:836;X:-198768;Y:-200448;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"destinationWarpName\"\: \"hubSMB1\"\,\n    \"levelTitle\"\: \"Back to Game Select\"\,\n    \"path_down\"\: \"toSMB1 8-End\"\,\n    \"warpName\"\: \"endSMB1\"\n}\n";
 ID:833;X:-197760;Y:-199744;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 1-2.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 1-2\"\,\n    \"path_left\"\: \"toSMB1 1-3\"\,\n    \"path_right\"\: \"toSMB1 1-2\"\,\n    \"path_up\"\: \"toSMB1 1-Secret\"\,\n    \"unlock_left\"\: 10\,\n    \"unlock_up\"\: 6\n}\n";
 ID:836;X:-197696;Y:-199664;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"destinationWarpName\"\: \"hubSMB1\"\,\n    \"levelTitle\"\: \"Back To Game Select\"\,\n    \"path_up\"\: \"toSMB1 1-1\"\,\n    \"warpName\"\: \"startSMB1\"\n}\n";
 ID:752;X:-198112;Y:-199744;D:-1;XTRA:"{\n    \"hideIfLocked\"\: false\,\n    \"name\"\: \"toSMB1Door-4-1\"\,\n    \"points\"\: \"0\,-32\, 0\,32\,\"\n}\n";

@@ -1,7 +1,7 @@
 require("libs/globalStuff")
 
 local tbox = textbox.New{
-	text = "<voice climbing>Pick a box. <new>Its contents will help you on your way.",
+	text = "<voice climbing>Pick a box. <new><voice climbing>Its contents will help you on your way.",
 	x = 280,
 	y = 280,
 	pause = false,
