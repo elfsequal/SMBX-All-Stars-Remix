@@ -1,0 +1,18 @@
+{
+	"style" : "groupbox",
+	"title" : "Floating Block Settings",
+	"layout": [
+		{
+			"control": "spinBox",
+			"name": "height",
+			"title": "Floating Block Height",
+			"type": "int",
+			"tooltip": "How high it rises above its placed position",
+			"value-default": 40,
+			"value-min": 0,
+			"value-max": 200,
+			"single-step": 1
+		}
+	]
+}
+

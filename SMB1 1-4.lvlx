@@ -7,7 +7,7 @@ SC:1;L:-180000;R:-179200;T:-181184;B:-180000;MZ:24;MF:"audio/music/new/castle.og
 SC:2;L:-160000;R:-159200;T:-160600;B:-160000;MZ:0;MF:"";BG:0;
 SECTION_END
 STARTPOINT
-ID:1;X:-199900;Y:-200246;D:1;
+ID:1;X:-199964;Y:-200246;D:1;
 STARTPOINT_END
 BLOCK
 ID:800;X:-200000;Y:-200192;W:32;H:32;
@@ -4078,6 +4078,7 @@ ID:510;X:-191776;Y:-200192;W:32;H:32;
 ID:510;X:-191776;Y:-200608;W:32;H:32;
 ID:510;X:-191776;Y:-200576;W:32;H:32;
 ID:510;X:-191776;Y:-200736;W:32;H:32;
+ID:998;X:-193376;Y:-200704;W:896;H:704;LR:"bosscamera";XTRA:"{\n    \"boundOnLeft\"\: true\,\n    \"boundOnRight\"\: true\,\n    \"treatCameraBoundsAsPhysical\"\: true\n}\n";
 BLOCK_END
 BGO
 ID:172;X:-199136;Y:-200064;
@@ -6203,7 +6204,7 @@ ID:89;X:-194432;Y:-200233;D:-1;
 ID:89;X:-194048;Y:-200281;D:-1;
 ID:89;X:-194112;Y:-200281;D:-1;
 ID:31;X:-179808;Y:-180256;D:-1;
-ID:902;X:-192800;Y:-200344;D:-1;LR:"Boswer";EA:"BossFight";ED:"BridgeFallAfter";
+ID:902;X:-192800;Y:-200344;D:-1;LR:"Boswer";ED:"BridgeFallAfter";
 ID:465;X:-194016;Y:-200448;D:-1;ED:"show bowser";
 ID:465;X:-194016;Y:-200416;D:-1;ED:"show bowser";
 ID:465;X:-194016;Y:-200384;D:-1;ED:"show bowser";
@@ -6218,9 +6219,10 @@ LAYERS
 LR:"Default";
 LR:"Destroyed Blocks";HD:1;
 LR:"Spawned NPCs";
-LR:"nsmbwalls";HD:1;
+LR:"nsmbwalls";
 LR:"Bridge";
 LR:"Boswer";HD:1;
+LR:"bosscamera";
 LAYERS_END
 EVENTS_CLASSIC
 ET:"Level - Start";AS:0;AX:0;AY:0;
@@ -6232,6 +6234,6 @@ ET:"SMB1-4 starCoin3";AS:0;AX:0;AY:0;
 ET:"Bridgefall";SD:4;LH:["Bridge"];DS:1;AS:0;AX:0;AY:0;
 ET:"BossFight";SSS:["ID\:0\;SL\:-193344\;ST\:-200832\;SB\:-200000\;SR\:-192544\;"];AS:0;AX:0;AY:0;
 ET:"world1Complete";AS:0;AX:0;AY:0;
-ET:"BridgeFallAfter";SD:44;SSS:["ID\:0\;SL\:-193344\;ST\:-200832\;SB\:-200000\;SR\:-191744\;"];AS:0;AX:0;AY:0;
+ET:"BridgeFallAfter";SD:44;LH:["bosscamera"];DS:1;AS:0;AX:0;AY:0;
 ET:"show bowser";LS:["Boswer"];DS:1;AS:0;AX:0;AY:0;
 EVENTS_CLASSIC_END

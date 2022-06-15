@@ -6,7 +6,7 @@ SC:0;L:-200000;R:-190016;T:-200600;B:-200000;MZ:42;MF:"";BG:29;XTRA:"{\n    \"be
 SC:1;L:-180000;R:-179200;T:-180600;B:-180000;MZ:0;MF:"";BG:0;
 SECTION_END
 STARTPOINT
-ID:1;X:-199948;Y:-200246;D:1;
+ID:1;X:-199964;Y:-200246;D:1;
 STARTPOINT_END
 BLOCK
 ID:800;X:-200000;Y:-200192;W:32;H:32;
@@ -2631,6 +2631,7 @@ ID:658;X:-190944;Y:-200320;W:32;H:32;
 ID:658;X:-190944;Y:-200288;W:32;H:32;
 ID:658;X:-190944;Y:-200256;W:32;H:32;
 ID:287;X:-197408;Y:-200704;W:1696;H:704;
+ID:998;X:-191616;Y:-200608;W:864;H:608;LR:"boss camera";XTRA:"{\n    \"boundOnLeft\"\: true\,\n    \"boundOnRight\"\: true\,\n    \"treatCameraBoundsAsPhysical\"\: true\n}\n";
 BLOCK_END
 BGO
 ID:204;X:-196192;Y:-200032;
@@ -4675,7 +4676,7 @@ ID:437;X:-194584;Y:-200576;D:1;
 ID:175;X:-192933;Y:-200410;D:-1;
 ID:310;X:-192992;Y:-200128;D:-1;S1:3;ED:"SMB2-4 starCoin3";
 ID:105;X:-193008;Y:-200172;D:-1;
-ID:902;X:-191043;Y:-200298;D:-1;LR:"bowser";EA:"Boss Fight";
+ID:902;X:-191043;Y:-200298;D:-1;LR:"bowser";ED:"Bridge Destroy After";
 ID:178;X:-190880;Y:-200256;D:-1;ED:"BridgeDestroy";
 ID:97;X:-190432;Y:-200256;D:-1;ED:"world2Complete";
 ID:430;X:-194848;Y:-200480;D:-1;
@@ -4726,6 +4727,7 @@ LR:"Spawned NPCs";
 LR:"nsmbwalls";
 LR:"Bridge";
 LR:"bowser";HD:1;
+LR:"boss camera";
 LAYERS_END
 EVENTS_CLASSIC
 ET:"Level - Start";AS:0;AX:0;AY:0;
@@ -4737,6 +4739,6 @@ ET:"SMB2-4 starCoin3";AS:0;AX:0;AY:0;
 ET:"world2Complete";AS:0;AX:0;AY:0;
 ET:"BridgeDestroy";SD:4;LH:["Bridge"];TE:"Bridge Destroy After";TD:15;DS:1;AS:0;AX:0;AY:0;
 ET:"Boss Fight";SSS:["ID\:0\;SL\:-191616\;ST\:-200600\;SB\:-200000\;SR\:-190816\;"];AS:0;AX:0;AY:0;
-ET:"Bridge Destroy After";SSS:["ID\:0\;SL\:-191616\;ST\:-200600\;SB\:-200000\;SR\:-190016\;"];AS:0;AX:0;AY:0;
+ET:"Bridge Destroy After";LH:["boss camera"];DS:1;AS:0;AX:0;AY:0;
 ET:"show bowser";LS:["bowser"];DS:1;AS:0;AX:0;AY:0;
 EVENTS_CLASSIC_END

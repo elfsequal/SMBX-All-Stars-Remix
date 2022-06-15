@@ -1,0 +1,51 @@
+{
+	"style" : "groupbox",
+	"title" : "Patrolling NPC Settings",
+	"layout": [
+		{
+			"control": "spinBox",
+			"name": "horiSpeed",
+			"title": "Horizontal speed",
+			"type": "double",
+			"tooltip": "How fast it moves left to right",
+			"value-default": 0.5,
+			"value-min": -1000,
+			"value-max": 1000,
+			"single-step": 0.1
+		},
+		{
+			"control": "spinBox",
+			"name": "vertiSpeed",
+			"title": "Vertical speed",
+			"type": "double",
+			"tooltip": "How fast it moves up or down",
+			"value-default": 0.2,
+			"value-min": -1000,
+			"value-max": 1000,
+			"single-step": 0.1
+		},
+		{
+			"control": "spinBox",
+			"name": "turnTimer",
+			"title": "Patrol Timer",
+			"type": "int",
+			"tooltip": "How long until it pauses and animates",
+			"value-default": 120,
+			"value-min": 0,
+			"value-max": 3000,
+			"single-step": 1
+		},
+		{
+			"control": "spinBox",
+			"name": "waitTimer",
+			"title": "Wait Timer",
+			"type": "int",
+			"tooltip": "How long it waits before turning around",
+			"value-default": 20,
+			"value-min": 0,
+			"value-max": 3000,
+			"single-step": 1
+		}
+	]
+}
+

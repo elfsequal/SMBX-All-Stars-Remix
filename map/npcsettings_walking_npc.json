@@ -1,0 +1,40 @@
+{
+	"style" : "groupbox",
+	"title" : "Walking NPC Settings",
+	"layout": [
+		{
+			"control": "spinBox",
+			"name": "horiSpeed",
+			"title": "Horizontal speed",
+			"type": "double",
+			"tooltip": "How fast it moves left to right",
+			"value-default": 1,
+			"value-min": -1000,
+			"value-max": 1000,
+			"single-step": 0.1
+		},
+		{
+			"control": "spinBox",
+			"name": "vertiSpeed",
+			"title": "Vertical speed",
+			"type": "double",
+			"tooltip": "How fast it moves up or down",
+			"value-default": 1,
+			"value-min": -1000,
+			"value-max": 1000,
+			"single-step": 0.1
+		},
+		{
+			"control": "spinBox",
+			"name": "turnTimer",
+			"title": "Turn Timer",
+			"type": "int",
+			"tooltip": "How long until it turns around (in frames)",
+			"value-default": 60,
+			"value-min": 0,
+			"value-max": 3000,
+			"single-step": 1
+		}
+	]
+}
+

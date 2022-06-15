@@ -1,6 +1,6 @@
 local globalStuff = {}
-require("libs/nsmbwalls")
-require("libs/Twirl")
+--require("libs/nsmbwalls")
+require("libs/twirl")
 
 local dropShadows = require("libs/dropShadows")
 
@@ -19,6 +19,8 @@ local flutterjump = require ("libs/flutterjump")
 local spawnzones = require ("libs/spawnzones")
 local deathTracker = require("libs/deathTracker")
 local altfiredeathsystem = require("libs/altfiredeathsystem")
+local fakeblocks = require("libs/blocks/ai/fakeblocks")
+
 
 aw.registerAllPlayersDefault()
 --aw.blacklist(87)

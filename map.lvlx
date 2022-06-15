@@ -89,7 +89,7 @@ ID:845;X:-197824;Y:-199648;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"l
 ID:832;X:-197920;Y:-199888;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 2-2.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 2-2\"\,\n    \"path_down\"\: \"toSMB1 2-2\"\,\n    \"path_left\"\: \"toSMB1 2-3\"\n}\n";
 ID:752;X:-197920;Y:-199728;D:-1;XTRA:"{\n    \"name\"\: \"toSMB1 2-2\"\,\n    \"points\"\: \"0\,32\, 0\,0\,  0\,-80\, 0\, -160\"\,\n    \"types\"\: \"newVine\, newVine\, newNormal\"\n}\n";
 ID:752;X:-197760;Y:-199776;D:-1;XTRA:"{\n    \"hideIfLocked\"\: true\,\n    \"name\"\: \"toSMB1 1-Secret\"\,\n    \"points\"\: \"0\,32\, 0\,-32\"\,\n    \"types\"\: \"newNormal\"\n}\n";
-ID:837;X:-197760;Y:-199808;D:-1;XTRA:"{\n    \"path_down\"\: \"toSMB1 1-Secret\"\n}\n";
+ID:837;X:-197760;Y:-199808;D:-1;XTRA:"{\n    \"destroyAfterWin\"\: false\,\n    \"levelFilename\"\: \"SMB1 1-House.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 1-House\"\,\n    \"path_down\"\: \"toSMB1 1-Secret\"\n}\n";
 ID:834;X:-197760;Y:-199648;D:-1;XTRA:"{\n    \"levelFilename\"\: \"SMB1 World 1 Classic.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 World 1 Classic\"\,\n    \"path_left\"\: \"toSMB1 1-Classic\"\n}\n";
 ID:833;X:-198176;Y:-199712;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"path_down\"\: \"toSMB1 4-Secret\"\,\n    \"path_left\"\: \"toSMB1 4-3\"\,\n    \"path_right\"\: \"toSMB1 4-2\"\n}\n";
 ID:832;X:-197696;Y:-199744;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"SMB1 1-1.lvlx\"\,\n    \"levelTitle\"\: \"SMB1 1-1\"\,\n    \"path_down\"\: \"toSMB1 1-1\"\,\n    \"path_left\"\: \"toSMB1 1-2\"\n}\n";

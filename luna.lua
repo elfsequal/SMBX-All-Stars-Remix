@@ -2,7 +2,6 @@
 
 local smwMap = require("smwMap")
 
-
 --Remote Coin Collection Code
 local remoteCC = require("libs/remoteCC")
 

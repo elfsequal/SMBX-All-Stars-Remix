@@ -1,6 +1,6 @@
 --[[
 
-    smwMap.lua v1.1
+    smwMap.lua v1.2.1
     by MrDoubleA
 
 
