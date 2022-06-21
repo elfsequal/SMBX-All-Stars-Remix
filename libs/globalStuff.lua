@@ -21,7 +21,6 @@ local deathTracker = require("libs/deathTracker")
 local altfiredeathsystem = require("libs/altfiredeathsystem")
 local fakeblocks = require("libs/blocks/ai/fakeblocks")
 
-
 aw.registerAllPlayersDefault()
 --aw.blacklist(87)
 

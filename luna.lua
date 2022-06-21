@@ -1,7 +1,7 @@
 --require("libs/globalStuff")
 
 local smwMap = require("smwMap")
-
+local inventory = require("libs/customInventory")
 --Remote Coin Collection Code
 local remoteCC = require("libs/remoteCC")
 

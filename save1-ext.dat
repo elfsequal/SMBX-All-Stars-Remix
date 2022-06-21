@@ -1,42 +1,52 @@
 {
 --[1]--
 {
-   ["smwMap"]={2},
-   ["__costumes"]={3},
-   ["__launcher"]={4},
-   ["_basegame"]={5}
+   ["usePWing"]=false,
+   ["__launcher"]={2},
+   ["_basegame"]={3},
+   ["smwMap"]={4},
+   ["__costumes"]={5},
+   ["inventoryTable"]={6},
+   ["useStarman"]=false
 },
 --[2]--
 {
-   ["encounterData"]={6},
-   ["crossUnlock"]={7},
-   ["unlockedPaths"]={8},
-   ["crossRoadFrame"]={9},
-   ["beatenLevels"]={10},
-   ["playerX"]=-197680,
-   ["playerY"]=-199728,
-   ["unlockedCheckpoints"]={11},
-   ["crossPathDone"]={12}
+
 },
 --[3]--
 {
-
+   ["bigSwitch"]={7},
+   ["_characterdata"]={8},
+   ["starcoin"]={9},
+   ["hud"]={10},
+   ["starcoinCounter"]=2
 },
 --[4]--
 {
-
+   ["encounterData"]={11},
+   ["crossUnlock"]={12},
+   ["unlockedPaths"]={13},
+   ["crossRoadFrame"]={14},
+   ["beatenLevels"]={15},
+   ["playerX"]=-197744,
+   ["playerY"]=-199728,
+   ["unlockedCheckpoints"]={16},
+   ["crossPathDone"]={17}
 },
 --[5]--
 {
-   ["bigSwitch"]={13},
-   ["_characterdata"]={14},
-   ["starcoinCounter"]=5,
-   ["hud"]={15},
-   ["starcoin"]={16}
+
 },
 --[6]--
 {
-
+   0,
+   0,
+   3,
+   0,
+   0,
+   18,
+   1,
+   [0]=4
 },
 --[7]--
 {
@@ -44,24 +54,31 @@
 },
 --[8]--
 {
-   ["toSMB1Door-4-1"]=true,
-   ["toSMB1 1-1"]=true,
-   ["toSMB1 1-2"]=true,
-   ["toSMB1 1-Secret"]=true
+   ["8"]={18},
+   ["10"]={19},
+   ["9"]={20},
+   ["6"]={21},
+   ["16"]={22},
+   ["11"]={23},
+   ["12"]={24},
+   ["7"]={25},
+   ["15"]={26},
+   ["13"]={27},
+   ["14"]={28}
 },
 --[9]--
 {
-
+   ["SMB1 1-1.lvlx"]={29},
+   ["map.lvlx"]={30},
+   ["SMB1 1-2.lvlx"]={31}
 },
 --[10]--
 {
-   ["SMB1 1-1.lvlx"]=true,
-   ["SMB1 1-2.lvlx"]=true
+   ["score"]=26970
 },
 --[11]--
 {
-   ["SMB1 1-1.lvlx"]={17},
-   ["SMB1 1-2.lvlx"]={18}
+
 },
 --[12]--
 {
@@ -69,40 +86,35 @@
 },
 --[13]--
 {
-
+   ["toSMB1Door-4-1"]=true,
+   ["toSMB1 1-Secret"]=true,
+   ["toSMB1 1-2"]=true,
+   ["toSMB1 1-1"]=true
 },
 --[14]--
 {
-   ["8"]={19},
-   ["10"]={20},
-   ["9"]={21},
-   ["6"]={22},
-   ["16"]={23},
-   ["11"]={24},
-   ["12"]={25},
-   ["7"]={26},
-   ["15"]={27},
-   ["13"]={28},
-   ["14"]={29}
+
 },
 --[15]--
 {
-   ["score"]=32940
+   ["SMB1 1-1.lvlx"]=true,
+   ["SMB1 1-2.lvlx"]=true
 },
 --[16]--
 {
-   ["SMB1 1-1.lvlx"]={30},
-   ["map.lvlx"]={31},
-   ["SMB1 1-House.lvlx"]={32},
-   ["SMB1 1-2.lvlx"]={33}
+   ["SMB1 1-1.lvlx"]={32}
 },
 --[17]--
 {
-   true
+
 },
 --[18]--
 {
-   true
+   ["reservePowerup"]=0,
+   ["0x10A"]=0,
+   ["powerup"]=1,
+   ["0x16"]=1,
+   ["0x108"]=0
 },
 --[19]--
 {
@@ -186,53 +198,40 @@
 },
 --[29]--
 {
-   ["reservePowerup"]=0,
-   ["0x10A"]=0,
-   ["powerup"]=1,
-   ["0x16"]=1,
-   ["0x108"]=0
+   1,
+   0,
+   1,
+   ["maxID"]=3,
+   ["alive"]={33}
 },
 --[30]--
 {
-   1,
-   1,
-   0,
-   ["maxID"]=3,
+   ["maxID"]=0,
    ["alive"]={34}
 },
 --[31]--
 {
-   ["maxID"]=0,
+   0,
+   0,
+   0,
+   ["maxID"]=3,
    ["alive"]={35}
 },
 --[32]--
 {
-   ["maxID"]=0,
-   ["alive"]={36}
+   true
 },
 --[33]--
-{
-   1,
-   1,
-   1,
-   ["maxID"]=3,
-   ["alive"]={37}
-},
---[34]--
 {
    true,
    true,
    true
 },
+--[34]--
+{
+
+},
 --[35]--
-{
-
-},
---[36]--
-{
-
-},
---[37]--
 {
    true,
    true,
